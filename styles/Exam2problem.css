@@ -1,0 +1,63 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: block;
+	top:0px;
+    width:600px;
+    font-size:14px;
+    padding:10px;
+    background-color:silver;
+    padding-bottom:80px;
+	height:110%;
+
+}
+hr {display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	
+	}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+
+    }
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    }
+
+table {border-collapse: collapse;}
+th , td {border:1px solid silver;}
+th {background:#a7ccf9;}
+td {background:#e1f0fe;padding:5px;}
+.section1 {background-color: #FFFFCC; visibility: hidden;position: absolute; width:580px;padding:5px 10px 5px 10px;min-height:200px;}
+.section2 {background-color: #DCDCDC; visibility: hidden;position: absolute; width:580px;padding:5px 10px 5px 10px;min-height:200px;}
+.section3 {background-color: white; visibility: hidden;position: absolute; width:580px;padding:5px 10px 5px 10px;min-height:200px;}
+.section4 {background-color: #FFFFCC; visibility: hidden;position: absolute; width:580px;padding:5px 10px 5px 10px;min-height:200px;}
+.section5 {background-color: #DCDCDC; visibility: hidden;position: absolute; width:580px;padding:5px 10px 5px 10px;min-height:200px;}
+
+
+button{margin-left:100px;}
+
+label {width:100px;
+float:left;
+}
+p.note {
+font-size:11px;
+font-style:italic;
+}
+
+
+#deleteresult {background-color: #DCDCDC; height:150%;}
+#updateresult {background-color: #DCDCDC; height:150%; }
+#result {background-color: #FFFFCC; height:150%; }
+#catdescription,#catdescription2 {width:450px;}
+
+input {text-transform: capitalize;}
